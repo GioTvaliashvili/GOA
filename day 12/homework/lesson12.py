@@ -1,5 +1,3 @@
-
-
 #დავალება 1
 
 # for i in range(11):
@@ -38,7 +36,7 @@
 # while num1 >= 1:
 #     print(num1)
 #     num1 -= 1
- 
+
 
 # num2 = 1
 
@@ -52,7 +50,6 @@ b = int(input("Enter number ..."))
 while a <= b:
     print(a)
     a += 1
-
 
 
 
