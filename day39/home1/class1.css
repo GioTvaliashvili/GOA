@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(255, 0, 195);
+}
+div{
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 400px;
+    
+}
+#kaka{
+    background-color: rgb(249, 0, 158);
+    width: 80px;
+    height: 25px;
+    color: white;
+}
+#gaga{
+    width: 80px;
+    height: 25px;
+}
+
+p{
+    color: rgb(246, 0, 180);
+}
+
+#zaa{
+    background-color: rgb(255, 0, 191);
+    color: white;
+    width: 150px;
+    height: 25px;
+    
+}
+
+span{
+    color: rgb(255, 0, 162);
+    
+}
+
