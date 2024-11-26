@@ -1,0 +1,24 @@
+.SB{
+    background-color: blue;
+    color: gold;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+}
+
+.sell{
+    background-color: rgb(93, 90, 244);
+    position: relative;
+    left: 250px;
+    color: purple;
+}
+.buy{
+    border: 20px solid rgb(44, 222, 0);
+    color: blue;
+    background-color: aqua;
+    height: 300px;
+    text-align: center;
+}
+body{
+    background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(178, 209, 0), rgb(78, 105, 36));
+}
