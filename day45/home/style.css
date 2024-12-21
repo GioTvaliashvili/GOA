@@ -1,0 +1,27 @@
+.image {
+    width: 200px;
+    transition: 0.3s;
+}
+
+.image:hover {
+    transform: scale(1.2);  
+    opacity: 1;  
+}
+
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(1, 230, 153);
+    transition: 0.3s;
+}
+
+.box:hover {
+    transform: scale(1.1); 
+    background-color: rgb(111, 0, 255);  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  
+}
+
+body{
+    background-color: blue;
+}
