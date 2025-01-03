@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CLASS</title>
+  <style>
+    @keyframes moveAndChangeColorAndRotate {
+      0% {
+        transform: translateX(0) rotate(0deg);  
+        background-color: rgb(57, 173, 22);    
+      }
+      50% {
+        transform: translateX(200px) rotate(180deg); 
+        background-color: rgb(255, 0, 0);    
+      }
+      100% {
+        transform: translateX(400px) rotate(360deg);  
+        background-color: rgb(0, 20, 197);  
+      }
+    }
+
+    .animated-element {
+      width: 100px;
+      height: 50px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      animation-name: moveAndChangeColorAndRotate;
+      animation-duration: 4s;        
+      animation-timing-function: ease-in-out; 
+      animation-iteration-count: infinite;    
+      animation-direction: alternate;        
+      animation-fill-mode: forwards;         
+      border-radius: 11px;
+    }
+
+    div {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="animated-element">CSS</div>
+</body>
+</html>
